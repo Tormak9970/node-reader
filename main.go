@@ -24,7 +24,7 @@ type Node struct {
 	BktIdx        int    `json:"bktIdx"`
 	DataOffset    uint16 `json:"dataOffset"`
 	DataLength    uint32 `json:"dataLength"`
-	ContentOffset uint16 `json:"contentLength"`
+	ContentOffset uint16 `json:"contentOffset"`
 	UncomprLength uint16 `json:"uncomprLength"`
 	StreamStyle   uint8  `json:"streamStyle"`
 }
